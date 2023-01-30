@@ -1,6 +1,10 @@
 import About from '@/components/About'
 import Class from '@/components/Class'
+import Contact from '@/components/Contact'
+import Footer from '@/components/Footer'
+import Gallery from '@/components/Gallery'
 import Hero from '@/components/Hero'
+import Price from '@/components/Price'
 import WhyUs from '@/components/WhyUs'
 import NavProvider from '@/context/navcontext'
 import Head from 'next/head'
@@ -25,6 +29,10 @@ export default function Home() {
         <NavProvider>
           <Class />
         </NavProvider>
+        <Price />
+        <Gallery />
+        <Contact />
+        <Footer />
       </main>
     </>
   )

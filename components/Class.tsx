@@ -16,7 +16,9 @@ const openSans = Open_Sans({
 
 const Class = () => {
   return (
-    <section id='kelas' className='flex flex-col gap-5 py-10 md:px-28'>
+    <section
+      id='kelas'
+      className='flex h-fit flex-col gap-5 px-5 py-10 pt-20 md:px-28'>
       <header className='flex flex-col gap-3 text-center'>
         <h2
           className={`${amatic.className} text-3xl text-[#212529] md:text-5xl`}>
@@ -28,8 +30,7 @@ const Class = () => {
           Selayang pandang dari silabus kelas kami
         </p>
       </header>
-
-      <div className='flex flex-col gap-5'>
+      <div className='flex flex-col items-center gap-10'>
         <ClassTab />
         <ClassGrid />
       </div>

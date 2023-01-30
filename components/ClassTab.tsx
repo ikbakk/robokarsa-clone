@@ -33,8 +33,8 @@ const ClassTab = () => {
   const { nav, setNav } = useContext(NavContext) as IContextValue
 
   return (
-    <nav className='flex justify-center'>
-      <ul className='flex gap-5'>
+    <nav className='flex justify-between text-sm md:justify-center md:text-base'>
+      <ul className='flex gap-2 md:gap-5'>
         {classTab.map((item) => {
           const activeNavText =
             item.id === nav ? 'text-[#2b77f2]' : 'text-[#37373f]'

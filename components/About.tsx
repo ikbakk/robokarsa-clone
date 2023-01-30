@@ -32,7 +32,6 @@ const About = () => {
         <figure
           style={{ backgroundImage: "url('/assets/about-robokarsa-3.jpg')" }}
           className='relative w-full overflow-hidden md:basis-[55%]'></figure>
-
         <article
           className={`${openSans.className} flex flex-col gap-5 px-10 text-[#212529] md:basis-[45%]`}>
           <p>
