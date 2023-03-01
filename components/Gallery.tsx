@@ -41,7 +41,7 @@ const Gallery = () => {
           centerMode
           centerSlidePercentage={40}
           infiniteLoop
-          width={800}
+          // width={800}
           className=''>
           {gallery.map((item, index) => {
             return (

@@ -48,7 +48,7 @@ const Price = () => {
   return (
     <section
       id='biaya'
-      className='flex flex-col gap-10 bg-gray-200 px-5 py-10 pt-20 md:px-28'>
+      className='flex flex-col items-center gap-10 bg-gray-200 px-5 py-10 pt-20 md:px-28'>
       <header className='flex flex-col gap-3 text-center'>
         <h2
           className={`${amatic.className} text-3xl text-[#212529] md:text-5xl`}>
